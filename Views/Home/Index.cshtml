@@ -8,7 +8,7 @@
 </div>
 
 <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-4">
         <h2>Scrum</h2>
         <p>
             Cool stuff about Scrum goes here
@@ -17,10 +17,12 @@
     <div class="col-md-4">
         <h2>MVC</h2>
         <div>Stuff about MVC goes here</div>
-        <h2>Links to sample models</h2>
-        @Html.ActionLink("Customers","index","Customers")
+        <h3>Links to sample models</h3>
+        @Html.ActionLink("Customers", "index", "Customers")<br />
+        @Html.ActionLink("Orders", "index", "Orders")<br />
+        @Html.ActionLink("Products", "index", "Products")
     </div>
-    <div class="col-md-5">
+    <div class="col-md-4">
         <h2>MIS AIS and COB</h2>
         <div>Department and college stuff goes here    </div>
     </div>
