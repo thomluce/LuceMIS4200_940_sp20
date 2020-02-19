@@ -18,6 +18,7 @@ namespace LuceMIS4200_940.DAL
         public DbSet<Orders> Orders { get; set; }
         public DbSet<Products> Products { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
+        public DbSet<UserDetails> UserDetails { get; set; }
 
         // add this method - it will be used later
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
